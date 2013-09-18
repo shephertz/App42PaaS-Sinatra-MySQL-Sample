@@ -1,0 +1,25 @@
+development:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: sinatra_with_mysql_dev
+  pool: 5
+  username: root
+  password:
+  
+test:
+  adapter: mysql2
+  encoding: utf8
+  reconnect: false
+  database: sinatra_template_test
+  pool: 5
+  username: root
+  password:
+  
+production:
+  adapter: mysql2            
+  host: < host >                          # VM IP
+  port: < port >                          # VM Port 
+  database: < database name >             # Database Name
+  username: < user_name >                 # User Name
+  password: '< password >'                # Password
