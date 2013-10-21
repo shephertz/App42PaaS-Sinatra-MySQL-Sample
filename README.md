@@ -7,7 +7,7 @@ Sample Sinatra App with MySQL for App42 PaaS Platform
 
 1. Setup infrastructure for required environment
 2. Create service
-3. Deploy a Ruby on Rails application
+3. Deploy a Sinatra application
 
 ### Setup infrastructure for required environment
 
@@ -26,7 +26,7 @@ DB Configure for Production environment (application_root_dir/config/database.ym
     username: <user_name>
     password: '<password>'
     
-### Deploy a Ruby on Rails application
+### Deploy a Sinatra application
 
     $ app42 deploy
 
